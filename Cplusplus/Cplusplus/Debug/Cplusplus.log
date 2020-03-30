@@ -1,0 +1,82 @@
+﻿Build started 30/3/2020 10:29:44 AM.
+     1>Project "E:\Study\Code\Cplusplus\Cplusplus\Cplusplus\Cplusplus\Cplusplus\Cplusplus.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Cplusplus.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Cplusplus.cpp Template1.cpp builder.cpp
+         builder.cpp
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(1): warning C4627: '#include <string>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(2): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(3): warning C4627: '#include <memory>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(17): error C2143: syntax error : missing ',' before '&'
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(21): error C2143: syntax error : missing ',' before '&'
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(25): error C2143: syntax error : missing ',' before '&'
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(36): error C2146: syntax error : missing ';' before identifier 'm_dough'
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(37): error C2146: syntax error : missing ';' before identifier 'm_sauce'
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(38): error C2146: syntax error : missing ';' before identifier 'm_topping'
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(19): error C2065: 'm_dough' : undeclared identifier
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(19): error C2065: 'dough' : undeclared identifier
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(23): error C2065: 'm_sauce' : undeclared identifier
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(23): error C2065: 'sauce' : undeclared identifier
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(27): error C2065: 'm_topping' : undeclared identifier
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(27): error C2065: 'topping' : undeclared identifier
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(31): error C2065: 'cout' : undeclared identifier
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(31): error C2065: 'm_dough' : undeclared identifier
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(31): error C2065: 'm_sauce' : undeclared identifier
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(32): error C2065: 'm_topping' : undeclared identifier
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(32): error C2065: 'endl' : undeclared identifier
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(43): error C2065: 'm_dough' : undeclared identifier
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(44): error C2065: 'm_sauce' : undeclared identifier
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(45): error C2065: 'm_topping' : undeclared identifier
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(72): error C2143: syntax error : missing ';' before '<'
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(72): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(72): error C2238: unexpected token(s) preceding ';'
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(61): error C2065: 'm_pizza' : undeclared identifier
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(61): error C2228: left of '.release' must have class/struct/union
+                 type is ''unknown-type''
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(65): error C2065: 'm_pizza' : undeclared identifier
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(65): error C2065: 'make_unique' : undeclared identifier
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(65): error C2275: 'Pizza' : illegal use of this type as an expression
+                 e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(11) : see declaration of 'Pizza'
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(65): error C2059: syntax error : ')'
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(90): error C2065: 'm_pizza' : undeclared identifier
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(90): error C2227: left of '->setDough' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(94): error C2065: 'm_pizza' : undeclared identifier
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(94): error C2227: left of '->setSauce' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(98): error C2065: 'm_pizza' : undeclared identifier
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(98): error C2227: left of '->setTopping' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(109): error C2065: 'm_pizza' : undeclared identifier
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(109): error C2227: left of '->setDough' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(113): error C2065: 'm_pizza' : undeclared identifier
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(113): error C2227: left of '->setSauce' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(117): error C2065: 'm_pizza' : undeclared identifier
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(117): error C2227: left of '->setTopping' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(157): error C2039: 'cin' : is not a member of 'std'
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(157): error C2065: 'cin' : undeclared identifier
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\builder.cpp(157): error C2228: left of '.get' must have class/struct/union
+                 type is ''unknown-type''
+         Template1.cpp
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\template1.cpp(1): warning C4627: '#include <memory>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\template1.cpp(13): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+         Cplusplus.cpp
+     1>e:\study\code\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus\cplusplus.cpp(12): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+         Generating Code...
+     1>Done Building Project "E:\Study\Code\Cplusplus\Cplusplus\Cplusplus\Cplusplus\Cplusplus\Cplusplus.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.12
